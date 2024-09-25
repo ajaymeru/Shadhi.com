@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Rahul Sharma",
+        "num": "9876543210",
+        "mail": "rahul.sharma@example.com",
+        "age": 29,
+        "gender": "Male",
+        "religion": "Hindu",
+        "mothertongue": "Hindi",
+        "img": "https://i.pinimg.com/236x/09/12/83/0912834e839d18215e6274bf58749759.jpg"
+    },
+    {
+        "name": "Priya Gupta",
+        "num": "9123456789",
+        "mail": "priya.gupta@example.com",
+        "age": 27,
+        "gender": "Female",
+        "religion": "Hindu",
+        "mothertongue": "Hindi",
+        "img": "https://i.pinimg.com/236x/09/12/83/0912834e839d18215e6274bf58749759.jpg"
+    },
+    {
+        "name": "Aman Singh",
+        "num": "9001122334",
+        "mail": "aman.singh@example.com",
+        "age": 32,
+        "gender": "Male",
+        "religion": "Sikh",
+        "mothertongue": "Punjabi",
+        "img": "https://i.pinimg.com/236x/09/12/83/0912834e839d18215e6274bf58749759.jpg"
+    },
+    {
+        "name": "Simran Kaur",
+        "num": "9055566778",
+        "mail": "simran.kaur@example.com",
+        "age": 25,
+        "gender": "Female",
+        "religion": "Sikh",
+        "mothertongue": "Punjabi",
+        "img": "https://i.pinimg.com/236x/09/12/83/0912834e839d18215e6274bf58749759.jpg"
+    },
+    {
+        "name": "Ali Khan",
+        "num": "9012233445",
+        "mail": "ali.khan@example.com",
+        "age": 30,
+        "gender": "Male",
+        "religion": "Muslim",
+        "mothertongue": "Urdu",
+        "img": "https://i.pinimg.com/236x/09/12/83/0912834e839d18215e6274bf58749759.jpg"
+    },
+    {
+        "name": "Zara Sheikh",
+        "num": "9022334456",
+        "mail": "zara.sheikh@example.com",
+        "age": 28,
+        "gender": "Female",
+        "religion": "Muslim",
+        "mothertongue": "Urdu",
+        "img": "https://i.pinimg.com/236x/09/12/83/0912834e839d18215e6274bf58749759.jpg"
+    },
+    {
+        "name": "John D'Souza",
+        "num": "9109876543",
+        "mail": "john.dsouza@example.com",
+        "age": 34,
+        "gender": "Male",
+        "religion": "Christian",
+        "mothertongue": "English",
+        "img": "https://i.pinimg.com/236x/09/12/83/0912834e839d18215e6274bf58749759.jpg"
+    },
+    {
+        "name": "Maria Fernandes",
+        "num": "9098765432",
+        "mail": "maria.fernandes@example.com",
+        "age": 26,
+        "gender": "Female",
+        "religion": "Christian",
+        "mothertongue": "English",
+        "img": "https://i.pinimg.com/236x/09/12/83/0912834e839d18215e6274bf58749759.jpg"
+    }
+]

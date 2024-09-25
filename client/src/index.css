@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Lobster", sans-serif; */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* From Uiverse.io by xueyuantan */
+.pickup {
+  width: 9em;
+  height: 3em;
+  border-radius: 30em;
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 6px 6px 12px #c5c5c5,
+    -6px -6px 12px #ffffff;
+  box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.pickup::before {
+  content: '';
+  width: 0;
+  height: 3em;
+  border-radius: 30em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.pickup:hover::before {
+  width: 9em;
+}
+
+
+.popup {
+  width: 150px;
+  border: 3px solid #315cfd;
+  border-radius: 45px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: white;
+  font-size: 1em;
+  font-weight: 550;
+}
+
+.popup:hover {
+  background: #315cfd;
+  color: white;
+  font-size: 1em;
+}
+
+.hvr-sweep-to-bottom {
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+  transition: color 0.3s;
+}
+
+.hvr-sweep-to-bottom:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: var(--blue);
+  transform: scaleY(0);
+  /* Adjusted to scale vertically */
+  transform-origin: 0 0;
+  /* Start scaling from the top */
+  transition: transform 0.5s ease-out;
+}
+
+.hvr-sweep-to-bottom:hover {
+  color: white;
+}
+
+.hvr-sweep-to-bottom:hover:before {
+  transform: scaleY(1);
+}

@@ -1,0 +1,60 @@
+.Customers {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    padding-top: 60px;
+    background-color: #b9c7da;
+
+    .headings {}
+
+    .cards {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+
+        .card {
+            flex: 1;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 9px 12px 10px -5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            // background-color: #b9c7da;
+            box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+
+            &:hover {
+                transform: scale(1.05);
+                transition: all 0.5s;
+            }
+
+            .img {
+                width: 100px;
+                height: 100px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                }
+            }
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                align-items: flex-start;
+            }
+
+        }
+    }
+
+}

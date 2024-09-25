@@ -1,0 +1,91 @@
+.Signup {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    height: 90vh;
+    align-items: center;
+    background: linear-gradient(76deg, #7cd5fc, #8d5ce4, #8181b0, #2fefb0);
+    background-size: 240% 240%;
+    animation: gradient-animation 24s ease infinite;
+
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+
+        h5 {
+            font-size: 2rem;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+
+
+            .form-group {
+                width: 100%;
+                justify-content: space-between;
+                display: flex;
+                gap: 10px;
+                align-items: center;
+
+                label {
+                    font-weight: bold;
+                }
+
+                input {
+                    // width: 1;
+                    padding: 5px 10px;
+                    border-radius: 10px;
+                    border: 1px solid grey;
+                    box-shadow: 9px 12px 10px -5px rgba(0, 0, 0, 0.1);
+                }
+            }
+
+            .frmbtn {
+                width: fit-content;
+                padding: 10px;
+                border-radius: 10px;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+
+    p {
+        font-size: 1rem;
+
+        a {
+            font-size: 1.1rem;
+            color: black;
+        }
+    }
+
+    .welcomeimg {
+        img {
+            width: 500px;
+            height: 80vh;
+            border-radius: 20px;
+
+        }
+    }
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
