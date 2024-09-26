@@ -24,12 +24,10 @@ const Contactus = () => {
                     <textarea id="" name="" rows="4" cols="50">
                         Enter your message here
                     </textarea>
-
                     <input type="submit" value="Submit" className='popup' />
                 </form>
             </div>
         </div>
     )
 }
-
 export default Contactus

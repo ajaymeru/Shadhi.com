@@ -31,11 +31,9 @@ const Signup = () => {
         e.preventDefault();
         console.log(formData);
         try {
-            const response = await axios.post("http://localhost:4000/api/v1/users/signup", formData)
-
+            const response = await axios.post("https://shadhi-com.vercel.app/api/v1/users/signup", formData)
             if (response.status === 201) {
                 console.log("created succesfully", response.data);
-
                 setFormData({
                     name: "",
                     email: "",
@@ -49,7 +47,6 @@ const Signup = () => {
             const msg = err.message
             // alert(msg)
             console.log(msg);
-
         }
     };
 
